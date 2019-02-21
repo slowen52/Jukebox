@@ -1,0 +1,69 @@
+#pButton{
+	height:60px;
+	width: 60px;
+	border: solid black 2px;
+ background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/High-contrast-media-playback-start.svg/2000px-High-contrast-media-playback-start.svg.png');
+    background-size: cover;
+	background-position: center;}
+
+#pButton:hover{
+    border-color: red;
+}
+#pause{
+    height:60px;
+	width: 60px;
+	border: solid black 2px;
+ background-image: url('https://png.pngtree.com/svg/20170808/player_pause__2502.png');
+    background-size: cover;
+	background-position: center;
+}
+
+#pause:hover{
+    border-color: red; 
+}
+
+#skip{
+    height:60px;
+	width: 60px;
+	border: solid black 2px;
+ background-image: url('https://cdn4.iconfinder.com/data/icons/feather/24/skip-forward-512.png');
+    background-size: cover;
+	background-position: center;
+}
+
+#skip:hover{
+    border-color:red;
+}
+
+#player{
+    height: 450px;
+    width: 400px;
+    margin-top: 40px;
+    background-color: lightsteelblue;
+/*   border: solid;*/
+}
+
+#title{
+    margin-top: 0;
+    padding-top: 20px
+}
+.playlist{
+    width : 600px;
+    height: 80px;
+    font-size: 20px;
+    border-left: solid black;
+    border-right: solid black ;
+    border-top: solid black;
+}
+.playlist:hover{
+    background-color: red;
+    opacity: .8;
+    color: white;
+}
+
+#bottom{
+    border-bottom: solid black;
+}
+.list{
+    list-style: none;
+}

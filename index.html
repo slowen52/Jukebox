@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jukebox</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+      <script src="script.js"></script>
+  </head>
+  <body>
+      <center>
+          <div id = "player">
+<h1 id = "title"> Song Playing:  </h1>
+      <img id ="picture_art" src = "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/54/bf/e5/54bfe5f0-79ae-469b-19ce-92f38d66bb58/UMG_cvrart_00602547550712_01_RGB72_1500x1500_14UMGIM54259.jpg/1200x630bb.jpg" height = 200px width = 200px>
+      <h3 id = "title-display">Electric Love by Borns</h3>
+
+<!--<input type="button" value="help"  onclick="change()">-->
+      <div id="audioplayer">
+
+          <button id="pButton" onclick="jukebox.play()"></button>
+          <button id = "pause"  onclick="jukebox.pause()"></button>
+          <button id="skip"  onclick="jukebox.skip()"></button>
+          
+      </div>
+      <audio id="audio" src="01%20Electric%20Love.mp3" onended="jukebox.end()"></audio>
+    </div>
+      <h2>Playlist</h2>
+    <ul id = "Playlists">
+        <li id = "song1" class="list"> <button class = "playlist" onclick="jukebox.skipTo(0)">Electric Love by Borns</button></li>
+        <li id = "song2" class="list" > <button class = "playlist" onclick="jukebox.skipTo(1)">Sail into the Sun by Gentlemen hall</button></li>
+        <li id = "song3" class="list"> <button class = "playlist" onclick="jukebox.skipTo(2)">I'm Ready by AJR</button></li>
+        <li id = "song4" class="list" > <button class = "playlist" onclick="jukebox.skipTo(3)">Magic by B.O.B</button></li>
+        <li id = "song5" class="list"><button id = "bottom" class = "playlist" onclick="jukebox.skipTo(4)"> Somewhere in Neverland by All Time Low</button></li>
+
+  </ul>
+
+</center>
+  </body>
+</html>
